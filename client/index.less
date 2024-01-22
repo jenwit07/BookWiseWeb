@@ -1,0 +1,162 @@
+@import "~antd/dist/antd.less";
+
+@bg-color: #01bab4;
+@bg-color-border: #f5be0d;
+@bg-color-white: #ffffff;
+@light-white: rgba(255, 255, 255, 0.65);
+@font-color: #ffffff;
+@font-gray: #a3a2a2;
+// @menu-inline-toplevel-item-height: 120px;
+// @menu-item-height: 120px;
+
+li.menu-header-title {
+  border-bottom-color: transparent !important;
+  /* some rules */
+  &:hover {
+    border-bottom-color: transparent !important;
+  }
+  &:focus {
+    border-bottom-color: transparent !important;
+  }
+  h2 {
+    margin: 0;
+  }
+}
+
+.logo {
+  height: 65px;
+  background: rgb(255, 255, 255);
+  background-size: auto 45px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(images/logo/small-wajito-backoffice.png) !important;
+  display: block;
+}
+.logo-large {
+  height: 65px;
+  background: rgb(255, 255, 255);
+  background-size: auto 45px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(images/logo/wajito-backoffice.png) !important;
+  display: block;
+}
+
+.logo-login {
+  height: 65px;
+  background-size: auto 45px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(images/logo/wajito-backoffice.png) !important;
+  display: block;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu {
+  margin: 0 10px;
+  margin-top: -1px;
+  margin-bottom: 0;
+  padding: 0 40px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.ant-menu-item,
+.ant-menu-horizontal:not(.ant-menu-dark)
+  > .ant-menu-submenu
+  .ant-menu-item:hover {
+  // border:none !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.ant-scrolling-effect {
+  touch-action: none;
+  width: 100% !important;
+  overflow: hidden;
+}
+
+.header-bar {
+  height: 10vh;
+  max-height: 134px;
+  background-color: #ffffff;
+}
+
+.hamburger {
+  padding-top: 2vh !important;
+}
+
+.user-icon-padding {
+  margin-top: 0px !important;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .jen-user-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .user-icon-padding {
+    margin-top: 36px !important;
+  }
+
+}
+
+@media only screen and (orientation: landscape) and (min-width: 768px) and (max-width: 1224px) {
+  .header-bar {
+    height: 6vh;
+    min-height: 70px;
+    background-color: #ffffff;
+  }
+
+  .hamburger {
+    padding-top: 3vh !important;
+    padding-left: 2vw !important;
+    padding-right: 2vw !important;
+  }
+
+  .hamburger-font {
+    font-size: 24px !important;
+  }
+
+  .jen-user-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .user-icon-padding {
+    margin-top: 10px !important;
+  }
+
+  .logo-header-mobile {
+    height: 80px;
+    background: rgb(255, 255, 255);
+    background-size: auto 60p;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(images/logo/wajito-backoffice.png) !important;
+  }
+
+}
+
+
+.pac-container {
+  z-index: 1100 !important;
+}

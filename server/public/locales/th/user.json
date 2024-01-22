@@ -1,0 +1,23 @@
+{
+  "username": "ชื่อผู้ใช้งาน",
+  "email": "อีเมล์",
+  "phone_no": "เบอร์โทรศัพท์",
+  "password": "รหัสผ่าน",
+  "name": "ชื่อ",
+  "Please input the first name!": "กรุณาใส่ชื่อผู้ใช้งาน",
+  "Please input the name!": "กรุณาใส่ชื่อ",
+  "Please input the email!" : "กรุณาใส่อีเมล์",
+  "Please input Phone number!": "กรุณาใส่เบอร์โทรศัพท์",
+  "Please input password!": "กรุณาใส่รหัสผ่าน",
+  "add_user": "เพิ่มผู้ใช้งาน",
+  "edit_user": "แก้ไขผู้ใช้งาน",
+  "pin": "Pin",
+  "Please input Pin number!": "กรุณาใส่เลข Pin จำนวน 6 ตัวและเป็นตัวเลขเท่านั้น",
+  "user_duplicate": "ชื่อผู้ใช้งานนี้มีแล้ว กรุณาตรวจสอบ",
+  "user_profile": "ข้อมูลส่วนตัว",
+  "cid": "เลขประจำตัวประชาชน",
+  "change_password": "เปลี่ยนรหัสผ่าน",
+  "confirm_password": "ยืนยันรหัสผ่าน",
+  "password_not_match": "รหัสผ่านไม่ตรงกัน กรุณาลองใหม่",
+  "pin is already exists": "Pin มีอยู่แล้ว กรุณาตรวจสอบ"
+}

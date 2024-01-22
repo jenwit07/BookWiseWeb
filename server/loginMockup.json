@@ -1,0 +1,13 @@
+{
+    "permissions": [
+        "*"
+    ],
+    "username": "admin",
+    "first_name": "obiwan",
+    "last_name": "skywalker",
+    "citizen_id": "",
+    "domain": "obiwan-backoffice",
+    "properties": {},
+    "authenticated": true,
+    "requests": {}
+}

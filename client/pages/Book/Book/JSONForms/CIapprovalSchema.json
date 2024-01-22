@@ -1,0 +1,75 @@
+{
+    "type": "object",
+    "properties": {
+        "isbn": {
+            "type": "string"
+        },
+        "author_id": {
+            "type": "string"
+        },
+        "author_name": {
+            "type": "string"
+        },
+        "author_signature": {
+            "type": "string"
+        },
+        "customer_id": {
+            "type": "string"
+        },
+        "book_title": {
+            "type": "string"
+        },
+        "book_desc": {
+            "type": "string"
+        },
+        "book_payload": {
+            "type": "object"
+        },
+        "date_of_request": {
+            "type": "string",
+            "format": "date"
+        },
+        "author_prices_request": {
+            "type": "number"
+        },
+        "status": {
+            "type": "string",
+            "enum": [
+                "PENDING",
+                "APPROVED",
+                "REJECTED",
+                "ERROR",
+                "RETRY"
+            ]
+        },
+        "create_date": {
+            "type": "string"
+        },
+        "create_by": {
+            "type": "string"
+        },
+        "update_date": {
+            "type": "string"
+        },
+        "update_by": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "isbn",
+        "author_id",
+        "author_name",
+        "author_signature",
+        "customer_id",
+        "book_title",
+        "book_desc",
+        "book_payload",
+        "date_of_request",
+        "author_prices_request",
+        "status",
+        "create_date",
+        "create_by",
+        "update_date",
+        "update_by"
+    ]
+}

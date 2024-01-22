@@ -1,0 +1,25 @@
+version: "3"
+
+services:
+  wajitonodejs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: wajitonodejs
+    container_name: wajitonodejs
+    restart: "always"
+    volumes:
+      -  wajito-backoffice-server_wajito-root:/home/nodejs/server
+    networks:
+      - wajito-backoffice-server_app-network
+      - san_francisco_default
+
+volumes:
+  wajito-backoffice-server_wajito-root:
+    external: true
+
+networks:
+  wajito-backoffice-server_app-network:
+    external: true
+  san_francisco_default:
+    external: true

@@ -1,0 +1,27 @@
+{
+    "StoreManagement": "Stores",
+    "stores_name": "Name",
+    "stores_details": "Details",
+    "address": "Address",
+    "university": "University name",
+    "active_flag": "Active",
+    "active": "active",
+    "disable": "disable",
+    "newStore": "Add Store",
+    "viewMap": "View Map",
+    "StoreInfo": "Store Information",
+    "name": "name",
+    "detail": "detail",
+    "addressLine1": "address line 1",
+    "addressLine2": "address line 2",
+    "zipCode": "zip code",
+    "StoreAddress": "store address",
+    "Type for search the place": "Type for search the place",
+    "Select The Place Location": "Select The Place Location",
+    "deleteStoreText1": "Would you like to delete store",
+    "deleteStoreText2": "?",
+    "DeleteStore": "Delete Store",
+    "created_store": "Created Store",
+    "updated_store": "Updated Store"
+
+}

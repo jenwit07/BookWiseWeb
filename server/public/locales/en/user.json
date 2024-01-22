@@ -1,0 +1,13 @@
+{
+  "username": "ชื่อผู้ใช้งาน",
+  "email": "อีเมล์",
+  "phone_no": "เบอร์โทรศัพท์",
+  "password": "รหัสผ่าน",
+  "name": "ชื่อ",
+  "Please input the first name!": "กรุณาใส่ชื่อผู้ใช้งาน",
+  "Please input the name!": "กรุณาใส่ชื่อ",
+  "Please input the email!" : "กรุณาใส่อีเมล์",
+  "Please input Phone number!": "กรุณาใส่เบอร์โทรศัพท์",
+  "Please input password!": "กรุณาใส่รหัสผ่าน",
+  "add_user": "เพิ่มผู้ใช้งาน"
+}
